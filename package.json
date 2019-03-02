@@ -1,0 +1,15 @@
+{
+  "name": "heroku-docker",
+  "version": "0.1.0",
+  "description": "Deploying a nodeJS app to Docker",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Shannon Clarke",
+  "license": "MIT"
+}
