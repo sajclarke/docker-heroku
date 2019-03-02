@@ -13,7 +13,7 @@ const app = express();
 // option to pass in a `req`uest at this time.
 
 app.get('/', function (req, res) {
-  res.send('<h1>Hello world</h1>\nAnd a special hello to Simon!');
+  res.send('<h1>Hello world</h1>\nAnd a special hello from Shannon!');
 });
 
 // Then listen to the port to see if there are any `get` calls to the root (with the response defined above):
